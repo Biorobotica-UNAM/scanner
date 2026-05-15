@@ -1,0 +1,15 @@
+<launch>
+
+  <group>
+    <push_ros_namespace namespace="scanner" />
+
+    <node
+      pkg="scanner"
+      exec="scanner_node"
+      name="scanner_node"
+      output="screen"
+    />
+
+  </group>
+
+</launch>
